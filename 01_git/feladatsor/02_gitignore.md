@@ -17,3 +17,5 @@ node_modules
 ```
 
 Ezután a `git status` parancs már nem fogja kiírni a `node_modules` mappát új fájlként. Viszont a `.gitingore` fájlt most már igen.
+
+Hasonlóképpen VSCode-ban is eltűnik a túl sok fájl; a node_modules mappa szürkébben fog látszani, ami azt jelzi, hogy a git ignorálja.
