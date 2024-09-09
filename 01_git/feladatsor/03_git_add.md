@@ -23,15 +23,19 @@ vagy ha az összes módosítást elő akarod készíteni kommitolásra:
 git add -A
 ```
 
-A `git status` parancs kiírja, hogy mi van előkészítve, pl.
+Adj hozzá egy fájlt a `git add` paranccsal.
+
+A `git status` parancs kiírja, hogy mi van előkészítve. Próbáld ki! Ilyesmit ír ki:
 
 ```
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
-        new file:   a
+        new file:   hello.js
 ```
 
-Ahogy írja, ki lehet venni a staging areából egy fájlt a `git rm --cached <fájlnév>` paranccsal (hopp, itt már cached-nek hívják!).
+Azután a `git add -A` paranccsal add hozzá az összes fájlt. Nézd meg újra a `git status` paranccsal.
+
+Ahogy a `git status` kimenete írja, ki is lehet venni a staging areából egy fájlt a `git rm --cached <fájlnév>` paranccsal (hopp, itt már cached-nek hívják!).
 
 Próbáld ki, hogy kiveszel az említett paranccsal egy fájlt, és megnézed a `git status` kimenetét! Aztán tedd vissza!
 
